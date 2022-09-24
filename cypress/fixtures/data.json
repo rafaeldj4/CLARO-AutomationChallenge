@@ -1,0 +1,26 @@
+{
+    "url":"http://automationpractice.com/index.php",
+    "total_shipping":"$2.00",
+    "tax":"$0.00",
+    "user": {
+        "name":"Rafael",
+        "lastname":"Mejia",
+        "email":"rafaeldj4@gmail.com",
+        "password":"Master123",
+        "company":"Google",
+        "address":"2315 Stockton Blvd",
+        "address2":"2315 Stockton Blvd",
+        "city":"Sacramento",
+        "country":"United States",
+        "state":"California",
+        "zipcode":"95817",
+        "phoneNumber":"(916) 734-2011",
+        "message":"I Love this Product",
+        "dateOfBirth":{
+            "day":"12",
+            "month":"12",
+            "year":"1997"
+        }
+        
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "claro-automationchallenge",
+  "version": "1.0.0",
+  "description": "CLARO Automation Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaeldj4/CLARO-AutomationChallenge.git"
+  },
+  "author": "Rafael Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaeldj4/CLARO-AutomationChallenge/issues"
+  },
+  "homepage": "https://github.com/rafaeldj4/CLARO-AutomationChallenge#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-mochawesome-reporter": "^3.2.2"
+  }
+}
