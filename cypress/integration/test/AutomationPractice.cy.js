@@ -84,7 +84,7 @@ describe("Test Suite: Escenarios Automation Practice", ()=>{
         homePage.elements.signInBtn().click()
         signupPage.elements.autehnticationHeading().should("be.visible")
         //2	Ingresar el Email en el campo "Email address" > Ingresar la contraseña en el campo "Password" de la seccion: ALREADY REGISTERED? y hacer click en el boton "Sign in"
-        signupPage.yourPersonalInformationForm.email_input().type(userEmail)
+        signupPage.yourPersonalInformationForm.email_input().type(the.user.email)
         signupPage.typePassword(the.user.password)
         signupPage.elements.signInBtn().click()
         myAccountPage.elements.myAccountHeading().should("be.visible").and("contain.text","My account")
@@ -112,7 +112,7 @@ describe("Test Suite: Escenarios Automation Practice", ()=>{
         //5	Hacer click en el boton "Proceed to checkout"
         shoppingCartPage.elements.proceedToCheckoutBtn().click()
         //6 Ingresar el Email en el campo "Email address" > Ingresar la contraseña en el campo "Password" de la seccion: ALREADY REGISTERED? y hacer click en el boton "Sign in"
-        signupPage.yourPersonalInformationForm.email_input().type(userEmail)
+        signupPage.yourPersonalInformationForm.email_input().type(the.user.email)
         signupPage.typePassword(the.user.password)
         signupPage.elements.signInBtn().click()
         //7 Hacer click en el boton "Proceed to checkout"
